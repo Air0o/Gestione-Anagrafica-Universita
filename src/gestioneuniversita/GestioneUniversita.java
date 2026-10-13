@@ -4,6 +4,8 @@
  */
 package gestioneuniversita;
 
+import controllers.JFrameController;
+import domain.Studente;
 import domain.Universita;
 import persistence.XMLParser;
 
@@ -18,11 +20,13 @@ public class GestioneUniversita {
      */
     public static void main(String[] args) {
         XMLParser parser = new XMLParser();
+        
         Universita uni = parser.readFile();
         
+        JFrameController controller = new JFrameController(uni);
         uni.stampaReport();
         
-       parser.writeFile(uni, "provaScrittura.xml");
+        parser.writeFile(uni, "provaScrittura.xml");
     }
     
 }

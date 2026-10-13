@@ -49,8 +49,8 @@ public class Esame {
 
     public boolean isLode() {
         return voto == 30; // Potrebbe essere esteso per 30 e lode
-    }
-
+    }    
+    
     @Override
     public String toString() {
         return nomeEsame + ": " + voto + "/30 (Data: " + dataEsame + ")";

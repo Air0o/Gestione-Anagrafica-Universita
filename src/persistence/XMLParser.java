@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package persistence;
 
 import domain.Esame;
@@ -111,8 +107,8 @@ public class XMLParser {
             for (Studente studente : uni.getStudenti()) {
                 Element elementStudente = doc.createElement("studente");
 
-                elementStudente.setAttribute("eta", studente.getEta().toString());
                 elementStudente.setAttribute("corso_di_laurea", studente.getCorsoDiLaurea());
+                elementStudente.setAttribute("eta", studente.getEta().toString());
 
                 Element elementNomeStudente = doc.createElement("nome");
                 Text textNomeStudente = doc.createTextNode(studente.getNome());
