@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<universita nome="Universita' degli Studi di Milano">
+    <studente eta="22" corso_di_laurea="Informatica">
+        <nome>Mario</nome>
+        <cognome>Rossi</cognome>
+        <esami>
+            <esame nome_esame="Programmazione 1" voto="28">
+                <data_esame>2023-05-10</data_esame>
+            </esame>
+            <esame nome_esame="Basi di Dati" voto="30">
+                <data_esame>2023-06-15</data_esame>
+            </esame>
+            <esame nome_esame="Algoritmi e Strutture Dati" voto="27">
+                <data_esame>2023-07-20</data_esame>
+            </esame>
+            <esame nome_esame="Sistemi Operativi" voto="29">
+                <data_esame>2023-09-12</data_esame>
+            </esame>
+        </esami>
+    </studente>
+    
+    <studente eta="23" corso_di_laurea="Ingegneria Informatica">
+        <nome>Lucia</nome>
+        <cognome>Bianchi</cognome>
+        <esami>
+            <esame nome_esame="Analisi Matematica 1" voto="26">
+                <data_esame>2023-02-15</data_esame>
+            </esame>
+            <esame nome_esame="Fisica 1" voto="24">
+                <data_esame>2023-04-21</data_esame>
+            </esame>
+            <esame nome_esame="Algoritmi e Strutture Dati" voto="30">
+                <data_esame>2023-06-10</data_esame>
+            </esame>
+            <esame nome_esame="Sistemi Operativi" voto="28">
+                <data_esame>2023-06-30</data_esame>
+            </esame>
+            <esame nome_esame="Reti di Calcolatori" voto="27">
+                <data_esame>2023-09-05</data_esame>
+            </esame>
+        </esami>
+    </studente>
+    
+    <studente eta="21" corso_di_laurea="Informatica">
+        <nome>Giuseppe</nome>
+        <cognome>Verdi</cognome>
+        <esami>
+            <esame nome_esame="Programmazione 1" voto="30">
+                <data_esame>2023-05-12</data_esame>
+            </esame>
+            <esame nome_esame="Programmazione 2" voto="30">
+                <data_esame>2023-06-18</data_esame>
+            </esame>
+            <esame nome_esame="Basi di Dati" voto="29">
+                <data_esame>2023-07-10</data_esame>
+            </esame>
+        </esami>
+    </studente>
+    
+    <studente eta="24" corso_di_laurea="Ingegneria Informatica">
+        <nome>Anna</nome>
+        <cognome>Ferrari</cognome>
+        <esami>
+            <esame nome_esame="Analisi Matematica 1" voto="28">
+                <data_esame>2023-01-20</data_esame>
+            </esame>
+            <esame nome_esame="Analisi Matematica 2" voto="27">
+                <data_esame>2023-06-15</data_esame>
+            </esame>
+            <esame nome_esame="Fisica 1" voto="25">
+                <data_esame>2023-04-10</data_esame>
+            </esame>
+            <esame nome_esame="Fisica 2" voto="26">
+                <data_esame>2023-07-05</data_esame>
+            </esame>
+            <esame nome_esame="Elettronica" voto="29">
+                <data_esame>2023-09-15</data_esame>
+            </esame>
+            <esame nome_esame="Architettura degli Elaboratori" voto="30">
+                <data_esame>2023-09-25</data_esame>
+            </esame>
+        </esami>
+    </studente>
+    
+    <studente eta="22" corso_di_laurea="Informatica">
+        <nome>Paolo</nome>
+        <cognome>Conti</cognome>
+        <esami>
+            <esame nome_esame="Programmazione 1" voto="25">
+                <data_esame>2023-05-15</data_esame>
+            </esame>
+            <esame nome_esame="Matematica Discreta" voto="23">
+                <data_esame>2023-06-20</data_esame>
+            </esame>
+            <esame nome_esame="Basi di Dati" voto="26">
+                <data_esame>2023-07-12</data_esame>
+            </esame>
+            <esame nome_esame="Ingegneria del Software" voto="24">
+                <data_esame>2023-09-08</data_esame>
+            </esame>
+        </esami>
+    </studente>
+    
+    <studente eta="23" corso_di_laurea="Scienze della Comunicazione">
+        <nome>Chiara</nome>
+        <cognome>Lombardi</cognome>
+        <esami>
+            <esame nome_esame="Sociologia della Comunicazione" voto="30">
+                <data_esame>2023-03-10</data_esame>
+            </esame>
+            <esame nome_esame="Teorie della Comunicazione" voto="28">
+                <data_esame>2023-06-05</data_esame>
+            </esame>
+            <esame nome_esame="Media Digitali" voto="29">
+                <data_esame>2023-07-18</data_esame>
+            </esame>
+        </esami>
+    </studente>
+</universita>
